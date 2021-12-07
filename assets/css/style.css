@@ -15,7 +15,6 @@ section {
 
 /*body-end*/
 
-/*header start*/
 /* apply styles to <header> */
 header {
   padding: 20px 35px;
@@ -43,6 +42,7 @@ header h1 {
 /*header-end*/
 
 /*header nav-bar*/
+
 header nav {
   float: right;
   margin: 7px 0;
@@ -65,8 +65,31 @@ header nav ul li a {
 
 /*nav-bar end*/
 
+/* Hero Style Start */
+
+.hero {
+  background-image: url("../images/hero-bg.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-form {
+  border: 3px solid #024e76;
+  background-color: #fce138;
+  padding: 35px;
+  width: 625px;
+  color: #024e76;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
+}
+
+/* Hero Style End */ction-end*/
+
 /*footer-start*/
-footer{
+footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
