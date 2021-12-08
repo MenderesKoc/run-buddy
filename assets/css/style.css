@@ -109,19 +109,51 @@ header nav ul li a {
 
 /* Hero Style End */
 
-/*what we do section end*/
+/*all main style info section */
 
-.intro {
-  text-align: center;
-}
-
-.intro h2 {
+.section-title {
   font-size: 55px;
   color: #024e76;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
-  border-bottom: 3px solid #fce138;
   display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+
+.steps div {
+  margin-bottom: 80px;
+}
+
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+
+/*all main style info section end*/
+
+/*what we do section*/
+
+.intro {
+  text-align: center;
 }
 
 .intro p {
@@ -132,7 +164,15 @@ header nav ul li a {
   margin: 0 auto;
 }
 
-/*what we do section*/
+/*what we do section end*/
+
+/*what-you-do*/
+.steps {
+  text-align: center;
+  background: #fce138;
+}
+
+/*what-you-do end*/
 
 /*footer-start*/
 footer {
