@@ -14,12 +14,12 @@
 [CSS Cheat Sheet](https://websitesetup.org/wp-content/uploads/2016/10/wsu-css-cheat-sheet.pdf)
 
 [W3C WAI](https://www.w3.org/WAI/standards-guidelines/wcag/)
-
+GTI
 
 
 ## Screenshot
 
-![alt text](assets/images/screenshot-runbuddy.png)
+![alt text](assets/images/Screenshot-runbuddy.png)
 
 
 
