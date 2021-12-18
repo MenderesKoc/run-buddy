@@ -19,6 +19,9 @@ section {
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header a {
@@ -28,10 +31,9 @@ header a {
 
 header h1 {
   font-weight: bold;
+  margin: 0;
   font-size: 36px;
   color: #fce138;
-  margin: 0;
-  display: inline;
 }
 
 /*header-end*/
@@ -39,8 +41,8 @@ header h1 {
 /*header nav-bar*/
 
 header nav {
-  float: right;
   margin: 7px 0;
+
 }
 
 header nav ul li {
