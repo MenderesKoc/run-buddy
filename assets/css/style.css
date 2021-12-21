@@ -10,19 +10,24 @@ body {
 }
 
 section {
-  padding: 92px;
+  padding: 60px;
 }
 
 /*body-end*/
 
 /* apply styles to <header> */
 header {
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;;
   padding: 20px 35px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
-  position:absolute;
+  position: -webkit-sticky;
+  position:sticky;
   top:0;
 }
 
@@ -36,6 +41,7 @@ header h1 {
   margin: 0;
   font-size: 36px;
   color: #fce138;
+  text-shadow: 0 0 10px rgba(0, green0, blue0, 0.5);
 }
 
 /*header-end*/
@@ -58,6 +64,7 @@ header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 22px;
+  text-shadow: 0 0 10px rgba(0, green0, blue0, 0.5);
 }
 
 /*nav-bar end*/
@@ -67,7 +74,8 @@ header nav ul li a {
 .hero {
   background-image: url("../images/hero-bg.jpg");
   background-size: cover;
-  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -85,18 +93,20 @@ header nav ul li a {
 
 .hero-cta h2 {
   font-style: italic;
-  font-size: 58px;
+  font-size: 55px;
   color: #fce138;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form {
   border: 3px solid #024e76;
-  background-color: #fce138;
+  background-color: rgba(252, 225, 56, 0.8);
   padding: 20px;
   color: #024e76;
   width: 40%;
   margin: 3.5%;
-  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
 }
 
 .hero-form p {
@@ -116,7 +126,7 @@ header nav ul li a {
   color: #024e76;
   width: 100%;
   margin-bottom: 15px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .hero-form label {
@@ -312,6 +322,7 @@ header nav ul li a {
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
+  border-radius: 10px;
 }
 
 .contact-form button {
@@ -322,6 +333,7 @@ header nav ul li a {
   text-align: center;
   padding: 15px o;
   font-size: 16px;
+  border-radius: 10px;
 }
 
 /*reach out styles end*/
@@ -375,6 +387,7 @@ footer a {
   header {
     padding-bottom: 0;
     justify-content: center;
+    position: relative;
   }
 
   header h1 {
