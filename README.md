@@ -7,6 +7,12 @@ A website that offers fitness training services.
 * HTML
 * CSS
 
+
+## Images
+
+![ScreenShot](/assets/images/Screenshot1.png)
+![ScreenShot](/assets/images/Screenshot2.png)
+
 ## Website
 https://mendereskoc.github.io/run-buddy/
 
