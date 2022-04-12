@@ -7,7 +7,6 @@ A website that offers fitness training services.
 * HTML
 * CSS
 
-
 ## Images
 
 ![ScreenShot](/assets/images/Screenshot1.png)
